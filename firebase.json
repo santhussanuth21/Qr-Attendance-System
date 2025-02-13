@@ -1,0 +1,16 @@
+{
+    "prefects": {
+        "123": {
+            "name": "John Doe",
+            "duty": "Morning Duty"
+        }
+    },
+    "attendance": {
+        "2023-10-01": {
+            "123": {
+                "morning": "08:00 AM",
+                "afternoon": "Not Officiated"
+            }
+        }
+    }
+}

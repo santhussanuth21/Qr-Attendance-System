@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Servatius College - Board of Prefects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Board Of Prefects</h1>
+        <h2>St. Servatius College</h2>
+    </header>
+    <main>
+        <div id="qr-scanner">
+            <h3>QR Code Scan කරන්න</h3>
+            <div id="reader"></div>
+        </div>
+        <div id="prefect-details">
+            <h3>Prefect Details</h3>
+            <p id="prefect-name">Name: </p>
+            <p id="prefect-duty">Duty: </p>
+        </div>
+        <div id="attendance-table">
+            <h3>Duty Attendance</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Morning Duty</th>
+                        <th>Afternoon Duty</th>
+                    </tr>
+                </thead>
+                <tbody id="attendance-body">
+                    <!-- Attendance data will be loaded here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
